@@ -1,0 +1,11 @@
+{
+  "name": "node-js-training-examples",
+  "version": "0.1.2",
+  "description": "This respository conatins all the example code for the node.js workshop. One of the basic ideas behind the training is that participants build one repository that is alike to these examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
