@@ -1,6 +1,6 @@
 {
   "name": "node-js-training-examples",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "This respository conatins all the example code for the node.js workshop. One of the basic ideas behind the training is that participants build one repository that is alike to these examples.",
   "main": "index.js",
   "scripts": {
