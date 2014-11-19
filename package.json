@@ -1,6 +1,6 @@
 {
   "name": "node-js-training-examples",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This respository conatins all the example code for the node.js workshop. One of the basic ideas behind the training is that participants build one repository that is alike to these examples.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jade": "^1.7.0"
+    "hiredis": "^0.1.17",
+    "jade": "^1.7.0",
+    "redis": "^0.12.1"
   },
   "devDependencies": {
     "jshint": "^2.5.8"
