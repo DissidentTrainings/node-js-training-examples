@@ -2,6 +2,8 @@ var http = require('http');
 var cluster = require('cluster');
 var numCPUs = require('os').cpus().length;
 var fs = require('fs');
+require('newrelic');
+
 
 var index = fs.readFileSync('index.html');
 
@@ -18,6 +20,7 @@ if (cluster.isMaster) {
   // Workers can share any TCP connection
   // In this case its a HTTP server
   http.createServer(function(req, res) {
+    newrelic.recordMetric('request', 1);
     res.writeHead(200);
     res.end("hello world\n");
   }).listen(8000);

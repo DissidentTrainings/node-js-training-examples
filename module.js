@@ -1,4 +1,5 @@
 var a = {
     'b': true
 }
-module.exports = a;
+module.exports.dreckig = null;
+module.exports.a = a;

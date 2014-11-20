@@ -1,7 +1,7 @@
 {
   "name": "node-js-training-examples",
-  "version": "0.1.8",
-  "description": "This respository conatins all the example code for the node.js workshop. One of the basic ideas behind the training is that participants build one repository that is alike to these examples.",
+  "version": "0.1.9",
+  "description": "This respository contains all the example code for the node.js workshop. One of the basic ideas behind the training is that participants build one repository that is alike to these examples.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,7 @@
   "dependencies": {
     "hiredis": "^0.1.17",
     "jade": "^1.7.0",
+    "newrelic": "^1.13.3",
     "redis": "^0.12.1"
   },
   "devDependencies": {
