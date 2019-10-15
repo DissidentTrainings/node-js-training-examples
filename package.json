@@ -11,7 +11,7 @@
   "dependencies": {
     "hiredis": "^0.1.17",
     "jade": "^1.7.0",
-    "newrelic": "^1.13.3",
+    "newrelic": "^5.13.1",
     "redis": "^0.12.1"
   },
   "devDependencies": {
